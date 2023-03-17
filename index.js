@@ -5,5 +5,12 @@ import './style.css';
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = ``;
 
-let js = 'fun';
-if (js === 'fun') alert('dudeeeeee');
+('use strict');
+
+let hasLicense = false;
+
+if (!hasLicense) {
+  console.log('hello');
+} else {
+  console.log('dude');
+}
